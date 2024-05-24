@@ -1,0 +1,128 @@
+html {
+    font-size: 10px; /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
+    font-family: "Open Sans", sans-serif; /* Este debe ser el resto del resultado que obtuviste de Google fonts */
+  }
+  
+  h1 {
+    font-size: 70px;
+    text-align: center;
+    color: #ffb233;
+   
+    
+  }
+
+  h2 {
+    font-size: 20px;
+    text-align: center;
+    color: #ffb233;
+   
+    
+  }
+
+
+  h1 {
+    margin: 0;
+    padding: 15px 0;
+    color: #ffb233;
+    text-shadow: 4px 4px 4px black;
+    background-color: grey;
+    
+  }
+
+  
+  p {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    font-family:helvetica;
+    
+  
+  }
+
+  
+  html {
+    background-color: #DBDADA;
+  }
+  
+
+  body {
+    width: 2000px;
+    margin: 0 auto;
+    background-color: #DBDADA;
+    padding: 0 10px 10px 10px;
+    border: 3px solid black;
+  }
+  
+  .contenedor {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+ 
+  img {
+    
+    width: 200px;
+    height;: 200px;
+    text-align: center;
+}
+
+body { background-image: url("fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+   
+a {
+    background-color: powderblue;
+    transition: background-color 0.5s;
+    
+  }
+  
+  a:hover {
+    background-color: gold;
+  }
+  
+  ul {
+    list-style:none;
+    font-size: 20px;
+   
+  }
+
+  li {
+ 
+    display:inline;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  form {
+ 
+    margin: 10px;
+    text-align: right;
+  }
+input:hover {
+    background-color: gold;
+  }
+  
+  h2{
+    list-style:none;
+    font-size: 20px;
+    text-align: left;
+    display:inline;
+    cursor: pointer;
+    
+  }
+
+
+  h {
+    list-style:none;
+    font-size: 20px;
+    text-align: left;
+    display:inline;
+    
+    
+  }
+
